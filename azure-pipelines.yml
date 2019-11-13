@@ -21,9 +21,6 @@ steps:
 
 - script: |
     pip install scrapy
-    scrapy
-    scrapy list
-    scrapy crawl UnsplashSpider
     Python PengDownloader.py
 
 - task: PublishPipelineArtifact@1
